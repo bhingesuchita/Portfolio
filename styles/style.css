@@ -280,7 +280,7 @@ navbar {
     opacity: 1;
   }
 }
-#about, #experience, #skills, #projects, #education, #contact {
+#about, #experience, #publications, #skills, #projects, #education, #contact {
   position: inherit;
   padding: 5%;
 }
@@ -295,7 +295,7 @@ navbar {
 }
 
 #skills, #experience, #publications {
-  background: fixed radial-gradient(ellipse at center, #232333 0%, #161616 100%);
+  background: fixed radial-gradient(ellipse at center, #232333 0%, #161616 100%); color : darkgray;
 }
 section .infoAbout {
   margin-top: 10%;
