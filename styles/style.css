@@ -284,7 +284,7 @@ navbar {
   position: inherit;
   padding: 5%;
 }
-#about, #contact, #education {
+#about, #contact, #education, #publications  {
   background: fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/random_grey_variations.png');
 }
 /*#projects {
@@ -294,11 +294,23 @@ navbar {
     background: #F0F0F0;
 }
 
-#skills, #experience, #publications {
+#publications{
+    color: rgba(255, 255, 255, .5);
+}
+
+#publicationsHeading{
+    color:bisque;
+}
+
+#publications li, #about p{
+    font-size:16px;
+}
+
+#skills, #experience{
   background: fixed radial-gradient(ellipse at center, #232333 0%, #161616 100%); color : darkgray;
 }
 section .infoAbout {
-  margin-top: 10%;
+  margin-top: 5%;
   text-align: justify;
   font-size: 15px;
   background: none;
@@ -368,7 +380,6 @@ section {
   height: relative;
 }
 footer {
-  text-align: left;
   width: 100%;
   height: 10vh;
   padding: 20px;
@@ -392,6 +403,7 @@ footer h5 {
 .footer__social_btn {
   text-align: right;
 }
+
 .timeline {
   position: relative;
   max-width: 1200px;
