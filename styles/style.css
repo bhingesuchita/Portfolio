@@ -291,7 +291,7 @@ navbar {
   background: fixed radial-gradient(ellipse at center, #000 0%, #252538 100%);
 }*/
 #projects{
-    background: #F0F0F0;
+    background: white; /*#F0F0F0;*/
 }
 
 #publications{
@@ -669,7 +669,7 @@ footer h5 {
 }
 
 #project1Image{
-    width:100%;
+    width:50%;
     height:400px;
 }
 #skillsDelimeter {
